@@ -1,0 +1,167 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+
+
+/* profile section style start */
+
+.profile-div{
+    text-align: center;
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.profile-img{
+    width: 150px;
+    height: 150px;
+    background-color: rgba(211, 211, 211, 0.313);
+    border-radius: 50%;
+    /* padding-bottom: 20px; */
+}
+
+/* profile section style end */
+
+ul li{
+    /* text-decoration: none; */
+    list-style: none;
+
+    color: white;
+} 
+
+.header{
+    width: 100%;
+    position:sticky;
+    top:0;
+    /* background-color: rgba(33, 28, 28, 0.813); */
+}
+
+ul{
+    display: flex;
+    /* gap: 10px; */
+    justify-content:space-around;
+}
+
+.navbar{
+    width: 90%;
+    margin: auto;
+    padding: 15px;
+    background-color: rgba(33, 28, 28, 0.813);
+}
+body{
+    margin: 0;
+}
+
+.msec{
+    width: 90%;
+    margin: auto;
+    padding: 15px;
+    /* background-color: rgba(211, 211, 211, 0.329);  */
+     /* background-color: rgba(164, 164, 164, 0.267); */
+}
+.msec-1{
+    border-bottom: 1px solid black;
+    /* background-color: rgba(164, 164, 164, 0.267); */
+
+
+}
+.msec-2{
+
+    width: 98%;
+    margin:auto;
+    padding: 10px;
+    background-color: rgba(164, 164, 164, 0.267);
+    /* border-radius: 3px; */
+    li{
+        list-style-type: disc;
+        color:black;
+    }
+
+}
+
+.msec-3
+{
+    width: 98%;
+    margin: auto;
+    padding: 10px;
+    /* background-color: whitesmoke; */
+    /* background-color: rgba(164, 164, 164, 0.267); */
+    color:black;
+}
+
+.msec-4{
+    /* table-border:1px solid white; */
+    width: 100%;
+    margin: auto;
+    padding: 10px;
+    /* background-color: whitesmoke; */
+    color:black;
+    /* background-color: rgba(164, 164, 164, 0.267); */
+
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(164, 164, 164);
+}
+td{
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+    background-color: lightgray;
+}
+.colspan-class {
+    background-color: rgb(164, 164, 164);
+    font-weight:normal;
+}
+.colspan-td {
+    background-color: lightgray;
+    font-weight:normal;
+}
+input[type=text]{
+    width: 98%;
+    margin:auto;
+    padding: 10px;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    color:black;
+
+}
+input[type=submit]{
+    width: 100%;
+    margin:auto;
+    padding: 10px;
+    background-color:green;
+    color:white;
+    border:none;
+
+}
+textarea{
+    width: 98%;
+    margin:auto;
+    padding: 10px;
+    background-color: white;
+    color:black;
+    border:none;
+    border-radius:5px;
+
+}
+.footer{
+    width: 90%;
+    margin: auto;
+    padding: 15px;
+    /* background-color: whitesmoke; */
+    background-color: rgb(164, 164, 164);
+    color:whitesmoke;
+    font-family:inherit;
+}
